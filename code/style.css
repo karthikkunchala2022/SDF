@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+body {
+  background-color: #e8e8e8;
+  margin: 0;
+}
+
+.navtop {
+  background-color: #6097ff;
+  height: 80px;
+  width: 100%;
+  border: 0;
+}
+
+.navtop div {
+  display: flex;
+  margin: 0;
+  max-width: 1000px;
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start; /* Add this line */
+  align-items: center; /* Add this line */
+}
+
+.navtop div h1,
+.navtop div a {
+  display: inline-flex;
+  align-items: center;
+}
+
+.navtop div h1 {
+  flex: 1;
+  font-size: 30px;
+  padding: 0;
+  margin-left: 600px;
+  color: #000000;
+  font-weight: 1000;
+}
+
+.navtop div a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+.navtop div a i {
+  padding: 2px 8px 0 0;
+}
+
+.navtop div a:hover {
+  color: #ecf0f6;
+}
+
+.content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.content h2 {
+  margin: 0;
+  padding: 25px 0;
+  font-size: 22px;
+  border-bottom: 1px solid #ebebeb;
+  color: #666666;
+}

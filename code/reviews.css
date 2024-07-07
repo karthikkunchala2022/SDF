@@ -1,0 +1,109 @@
+.reviews .overall_rating .num {
+    font-size: 40px;
+    font-weight: bold;
+    color: #c7b300;
+}
+.reviews .overall_rating .stars {
+    letter-spacing: 3px;
+    font-size: 36px;
+    color: #d3be00;
+    padding: 0 5px 0 10px;
+}
+.reviews .overall_rating .total {
+    color: #000000;
+    font-size: 20px;
+}
+  
+.reviews .write_review_btn, .reviews .write_review button {
+    display: inline-block;
+    background-color: #001d7d;
+    color: #e1e1e1;
+    text-decoration: none;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    border: 0;
+    
+}
+.reviews .write_review_btn:hover, .reviews .write_review button:hover {
+    background-color: #006f09;
+}
+.reviews {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.reviews .overall_rating {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.reviews .write_review {
+    display: none;
+    padding: 20px 0 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.reviews .review {
+    padding: 20px 0;
+    border-radius: 10px;
+    border-bottom: 5px solid #eee;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.reviews .write_review {
+    display: none;
+    padding: 20px 0 10px 0;
+}
+.reviews .write_review textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 150px;
+    margin-top: 10px;
+}
+.reviews .write_review input {
+    display: block;
+    width: 350px;
+    height: 150px;
+    padding: 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.reviews .write_review button {
+    cursor: pointer;
+}
+.reviews .review {
+    padding: 20px ;
+    border-bottom: 1px solid #ffffff;
+}
+.reviews .review .name {
+    padding: 0 0 3px 0;
+    margin: 0;
+    font-size: 18px;
+    color: #315689;
+}
+.reviews .review .rating {
+    letter-spacing: 2px;
+    font-size: 22px;
+    color: #F5A624;
+}
+.reviews .review .date {
+    color: #777777;
+    font-size: 14px;
+}
+.reviews .review .content {
+    padding: 5px 0;
+}
+.reviews .review:last-child {
+    border-bottom: 0;
+}
